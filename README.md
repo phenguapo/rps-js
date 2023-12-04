@@ -1,2 +1,2 @@
 # rps-js
-Just a rock, paper, scissors game built on javascript. Made as an assignment for TheOdinProject.
+Just a rock, paper, scissors game built on javascript. Made as an assignment for TheOdinProject. Helped me better understand DOM manipulation and gave me a good start on the logic behind JavaScript.

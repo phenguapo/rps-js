@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Dekko&display=swap');
+
+.header {
+  display: flex;
+  color: #eb9c5c;
+  background-color: #3b3c36;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: 'Asar', serif;
+}
+
+.hc {
+  margin-left: 15px;
+}
+
+ul {
+  display: flex;
+  color: #c7ccd4;
+  font-size: 18px;
+  list-style: none;
+}
+
+.gh {
+  margin-right: 15px;
+  
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #dba800;
+  height: 100%;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.button {
+  background-color: #73a580;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-family: 'Dekko', cursive;
+  box-shadow: 0 9px #25422d;
+  margin-top: 8cm;
+}
+
+.bttn {
+  background-color: rgb(108, 158, 67);
+  color: black;
+  border: 2px solid #87b67b;
+  
+}
+
+.bttn:hover {
+  background-color: #87b67b;
+  color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btbox {
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: flex;
+  color: #3e363f;
+  margin: 20px;
+  padding: 20px;
+  font-size: 13px;
+  justify-content: center;
+  font-family: 'Dekko', cursive;
+  font-size: large;
+  margin-top: 2cm;
+  text-align: center;
+}
+
+footer {
+    display: flex;
+    font-family: 'Dekko', cursive;
+    color: #eb9c5c;
+    padding: 5px;
+    font-size: 13px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #3b3c36;
+  }
+  
+
+  a:link {
+    text-decoration: none;
+    color: #ff7300;
+    font-weight: bold;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #ff7300;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #ff7300;
+    font-weight: bold;
+  }
+  a:active {
+    text-decoration: none;
+    color: #ff7300;
+    font-weight: bold;
+  }
