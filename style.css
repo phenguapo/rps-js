@@ -47,6 +47,7 @@ body {
   cursor: pointer;
   border-radius: 15px;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
   box-shadow: 0 9px rgb(0, 63, 63);
   margin-top: 8cm;
 }
